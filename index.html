@@ -23,6 +23,7 @@
                 "nav-text":"#424247",
                 "pink-color":"#FF4240",
                 "color": "rgba(19, 19, 24, 0.60)",
+                "main-color":"#131318",
               }
             }
           }
@@ -36,48 +37,90 @@
         </style>
 </head>
 <body class="font-Manrope">
-    <header class="">
-        <!-- header start -->
-        <div class="mx-20">
-            <nav class="flex justify-around mt-8">
-                <i class="fa-solid fa-bars text-4xl mr-6"></i>
-                <h2 class="text-4xl font-extrabold">Hockey<span class="text-pink-color">'</span>s</h2>
-                <div class="text-base text-nav-text space-x-6 capitalize m-auto lg:flex hidden">
-                    <a href="">home</a>
-                    <a href="">about</a>
-                    <a href="">pages</a>
-                    <a href="">blog</a>
-                    <a href="">contact</a>
+    <div class="mx-28">
+        <header class="">
+            <!-- header start -->
+                <nav class="flex justify-around mt-8">
+                    <i class="fa-solid fa-bars text-4xl mr-6"></i>
+                    <h2 class="text-4xl font-extrabold">Hockey<span class="text-pink-color">'</span>s</h2>
+                    <div class="text-base text-nav-text space-x-6 capitalize m-auto lg:flex hidden">
+                        <a href="">home</a>
+                        <a href="">about</a>
+                        <a href="">pages</a>
+                        <a href="">blog</a>
+                        <a href="">contact</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-magnifying-glass text-color text-lg lg:inline-block hidden"></i>
+                        <button class="btn bg-pink-color capitalize text-white lg:px-8 px-5 lg:text-lg text-sm ml-4 ">get ticket</button>
+                    </div>
+                </nav>
+                <div class="carousel w-full mt-6 relative">
+                    <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a> 
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                    </div> 
+                    <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a> 
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                    </div> 
                 </div>
-                <div>
-                    <i class="fa-solid fa-magnifying-glass text-color text-lg lg:inline-block hidden"></i>
-                    <button class="btn bg-pink-color capitalize text-white lg:px-8 px-5 lg:text-lg text-sm ml-4 ">get ticket</button>
+                <div class="bg-[#131318] text-white lg:p-8 p-4 rounded-2xl max-w-xl lg:absolute block bottom-12 right-40">
+                        <h3 class="lg:text-2xl text-lg font-extrabold">Meet all the heroes from the field</h3>
+                        <p class="py-3 lg:text-lg text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, expedita.</p>
                 </div>
-            </nav>
-            <div class="carousel w-full mt-6 relative">
-                <div id="slide1" class="carousel-item relative w-full">
-                  <img src="Images/1.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a> 
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide2" class="carousel-item relative w-full">
-                  <img src="Images/4.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a> 
-                    <a href="#slide3" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-              </div>
-              <div class="bg-[#131318] text-white lg:p-8 p-4 rounded-2xl max-w-xl lg:absolute block bottom-0 right-28">
-                    <h3 class="lg:text-2xl text-lg font-extrabold">Meet all the heroes from the field</h3>
-                    <p class="py-3 lg:text-lg text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, expedita.</p>
-              </div>
-        </div>
-        <!-- header end -->
-    </header>
-    <main></main>
-    <footer></footer>
+            
+            <!-- header end -->
+        </header>
+        <main>
+             <!-- Professional Hockeys Club start -->
+             <div class="py-20">
+                <div class="flex justify-center text-center">
+                    <div>
+                        <h2 class="text-main-color font-extrabold text-4xl">Professional Hockeys Club</h2>
+                        <p class="text-lg text-color px-4 py-4 lg:pb-20 pb-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni<br>quod autem similique minus asperiores quia?</p>
+                    </div>
+                </div>
+                <div class="lg:flex col-span-1 justify-around text-center ">
+                    <div>
+                        <div class="radial-progress font-bold text-xl text-pink-600" style="--value:87;" role="progressbar">87%</div>
+                        <div>
+                            <h4 class="text-main-color py-3 text-2xl font-extrabold">Prayer Facility</h4>
+                            <p class="pb-5">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="radial-progress text-purple-500 font-bold text-xl" style="--value:95;" role="progressbar">95%</div>
+                        <div>
+                            <h4 class="text-main-color py-3 text-2xl font-extrabold">Experienced Coach</h4>
+                            <p class="pb-5">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="radial-progress text-yellow-400 font-bold text-xl" style="--value:90;" role="progressbar">90%</div>
+                        <div>
+                            <h4 class="text-main-color py-3 text-2xl font-extrabold">Senior Player</h4>
+                            <p class="pb-5">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="radial-progress text-blue-600 font-bold text-xl" style="--value:80;" role="progressbar">80%</div>
+                        <div>
+                            <h4 class="text-main-color py-3 text-2xl font-extrabold" >Training Ground</h4>
+                            <p class="pb-5">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            <!-- Professional Hockeys Club end -->
+        </main>
+        <footer></footer>
+    </div>
 </body>
 </html>
