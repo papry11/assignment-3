@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"data-theme="light" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind and daisy ui link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind custom color -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              backgroundImage:{
+                "header-bg":"url('images/banner.png')",
+              },
+              colors: {
+                "nav-text":"#424247",
+                "pink-color":"#FF4240",
+                "color": "rgba(19, 19, 24, 0.60)",
+              }
+            }
+          }
+        }
+      </script>
+        <!-- css custom file -->
+        <style>
+            .font-Manrope{
+                font-family: 'Manrope', sans-serif;;
+            }
+        </style>
+</head>
+<body class="font-Manrope">
+    <header class="">
+        <!-- header start -->
+        <div class="mx-20">
+            <nav class="flex justify-around mt-8">
+                <i class="fa-solid fa-bars text-4xl mr-6"></i>
+                <h2 class="text-4xl font-extrabold">Hockey<span class="text-pink-color">'</span>s</h2>
+                <div class="text-base text-nav-text space-x-6 capitalize m-auto lg:flex hidden">
+                    <a href="">home</a>
+                    <a href="">about</a>
+                    <a href="">pages</a>
+                    <a href="">blog</a>
+                    <a href="">contact</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass text-color text-lg lg:inline-block hidden"></i>
+                    <button class="btn bg-pink-color capitalize text-white lg:px-8 px-5 lg:text-lg text-sm ml-4 ">get ticket</button>
+                </div>
+            </nav>
+        </div>
+        <!-- header end -->
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
