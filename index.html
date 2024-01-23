@@ -18,6 +18,9 @@
             extend: {
               backgroundImage:{
                 "header-bg":"url('images/banner.png')",
+                "program1-bg":"url('images/2.png')",
+                "program2-bg":"url('images/3.png')",
+                "program3-bg":"url('images/4.png')",
               },
               colors: {
                 "nav-text":"#424247",
@@ -32,8 +35,8 @@
         <!-- css custom file -->
         <style>
             .font-Manrope{
-                font-family: 'Manrope', sans-serif;;
-            }
+                font-family: 'Manrope', sans-serif;
+            };
         </style>
 </head>
 <body class="font-Manrope">
@@ -80,7 +83,7 @@
         </header>
         <main>
              <!-- Professional Hockeys Club start -->
-             <div class="py-20">
+             <section class="py-20">
                 <div class="flex justify-center text-center">
                     <div>
                         <h2 class="text-main-color font-extrabold text-4xl">Professional Hockeys Club</h2>
@@ -117,8 +120,35 @@
                         </div>
                     </div>
                 </div>
-             </div>
+             </section>
             <!-- Professional Hockeys Club end -->
+            <!-- program section start -->
+            <section class="mb-10">
+                <div class="flex justify-center text-center">
+                    <div>
+                        <h2 class="text-main-color font-extrabold text-4xl">Program section</h2>
+                        <p class="text-lg text-color px-4 py-4 lg:pb-20 pb-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni<br>quod autem similique minus asperiores quia?</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="lg:col-span-1 col-span-2 bg-program1-bg max-w-full bg-cover bg-no-repeat bg-center p-14">
+                        <h4 class="text-2xl text-white font-extrabold capitalize">junior program</h4>
+                        <p class="text-base text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, dolores.</p>
+                        <button class="btn bg-pink-color capitalize text-white lg:px-8 px-5 lg:text-lg text-sm border-none my-4">register now!</button>
+                    </div>
+                    <div class="lg:col-span-1 col-span-2 bg-program2-bg max-w-full bg-cover bg-no-repeat bg-center p-14">
+                        <h4 class="text-2xl text-white font-extrabold capitalize">junior program</h4>
+                        <p class="text-base text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, dolores.</p>
+                        <button class="btn bg-pink-color capitalize text-white lg:px-8 px-5 lg:text-lg text-sm border-none my-4">register now!</button>
+                    </div>
+                    <div class=" col-span-2 bg-program3-bg max-w-full bg-cover bg-no-repeat bg-center p-20">
+                        <h4 class="text-2xl text-white font-extrabold capitalize">junior program</h4>
+                        <p class="text-base text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, dolores.</p>
+                        <button class="btn bg-pink-color capitalize text-white lg:px-8 px-5 lg:text-lg text-sm border-none my-4">register now!</button>
+                    </div>
+                </div>
+            </section>
+            <!-- program section end -->
         </main>
         <footer></footer>
     </div>
